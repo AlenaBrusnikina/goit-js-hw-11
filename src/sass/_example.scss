@@ -30,8 +30,11 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+button:hover,
+button:focus {
   background-color:white;
+  border: 2px solid rgb(238, 238, 6);
+  outline: rgb(238, 238, 6);
 }
 
 .load-more {
